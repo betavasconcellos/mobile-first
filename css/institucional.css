@@ -1,0 +1,42 @@
+.institucional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.institucional .institucional__titulo {
+  color: #4F4C4C;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Montserrant", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.institucional .institucional__descricao {
+  margin-bottom: 2rem;
+}
+.institucional .institucional__endereco {
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+.institucional .institucional__contato {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+}
+.institucional .institucional__contato .institucional__contato-telefone {
+  line-height: normal;
+}
+.institucional .institucional__contato .institucional__contato-email {
+  color: #0084FF;
+  text-decoration: underline;
+  display: block;
+}
+.institucional .institucional__video {
+  width: 100vw;
+}/*# sourceMappingURL=institucional.css.map */
