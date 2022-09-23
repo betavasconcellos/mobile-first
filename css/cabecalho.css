@@ -10,6 +10,13 @@
   border-bottom: 1px solid #103D4A;
   position: absolute;
 }
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+  }
+}
 .cabecalho .cabecalho__logo {
   margin-bottom: 1rem;
 }

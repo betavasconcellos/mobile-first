@@ -13,6 +13,12 @@
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
     
+    @media screen and (min-width:1024px){
+        background: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+
     .chamada__titulo {
         font-family: 'Montserrat', serif;
         font-size: 2rem;
@@ -20,6 +26,11 @@
         text-transform: uppercase;
         
         margin-bottom: 1.5rem;
+
+        @media screen and (min-width:1024px){
+            font-size:3.25rem;
+            margin-bottom: 2rem;
+        }
     }
     
     .chamada__texto {
@@ -27,11 +38,17 @@
         line-height: normal;
         
         margin: 0 auto 2.5rem;
+        
+        @media screen and (min-width: 768px) {
+            max-width: 600px;
+        }
+        
     }
     
     .chamada__botao {
         width: 100%;
     }
 }
+
 
 

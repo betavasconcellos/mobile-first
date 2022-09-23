@@ -6,6 +6,13 @@
   padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  .rodape {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 .rodape .rodape__social {
   display: flex;
 }
@@ -19,6 +26,12 @@
   color: #FFF;
   text-align: center;
   line-height: 3;
+}
+@media screen and (min-width: 1024px) {
+  .rodape .rodape__navegacao {
+    text-align: left;
+    min-width: 600px;
+  }
 }
 .rodape .rodape__navegacao .rodape__link {
   display: inline-block;

@@ -7,6 +7,14 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  .institucional .institucional__conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
 .institucional .institucional__titulo {
   color: #4F4C4C;
   font-weight: 700;
@@ -37,6 +45,22 @@
   text-decoration: underline;
   display: block;
 }
+@media screen and (min-width: 768px) {
+  .institucional .institucional__contato .institucional__contato-email {
+    display: inline-block;
+  }
+}
 .institucional .institucional__video {
   width: 100vw;
+}
+@media screen and (min-width: 768px) {
+  .institucional .institucional__video {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .institucional .institucional__video {
+    align-self: flex-end;
+    width: 375px;
+  }
 }/*# sourceMappingURL=institucional.css.map */
